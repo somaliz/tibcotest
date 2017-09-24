@@ -1,4 +1,5 @@
 #!/bin/bash
+# Hi Amitav welcome to DevOPS
 
 TIBCO_HOME=/usr/local/tibco
 BW_HOME=$TIBCO_HOME/bw/6.4
