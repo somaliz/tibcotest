@@ -23,6 +23,8 @@ echo "undeploy -domain $domain -appspace $appspace tibconow.auto.application 1.3
 echo "delete -domain $domain tibconow.auto.application_1.3.0.ear"
 echo "upload -domain $domain -replace $ear" >> $script
 echo "deploy -domain $domain -appspace $appspace -replace $ear" >> $script
+echo "start -domain $domain appspace $appspace" >> $script
+echo "start -d $domain -a $appspace application tibconow.auto.application 1.3" >> $script
 
 echo "Deployment script"
 echo "------------------------"
